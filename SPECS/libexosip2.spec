@@ -10,7 +10,7 @@ Source0: https://download.savannah.nongnu.org/releases/exosip/%{name}-%{version}
 BuildRequires:	gcc
 BuildRequires:	make
 BuildRequires:	openssl-devel
-BuildRequires:	libosip2 = %{version}-%{release}
+BuildRequires:	libosip2-devel = %{version}-%{release}
 
 %description
 eXosip is a library that hides the complexity of using the SIP protocol
