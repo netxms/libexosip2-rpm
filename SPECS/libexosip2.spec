@@ -46,9 +46,6 @@ rm -f %{buildroot}/%{_libdir}/*.la
 %exclude %{_bindir}/sip_*
 
 %{_libdir}/libeXosip2.so.*
-#%{_libdir}/libjemalloc.so.*
-#%{_bindir}/jemalloc.sh
-#%doc COPYING README VERSION
 
 %files devel
 %{_libdir}/libeXosip2.a
